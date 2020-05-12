@@ -1,1 +1,32 @@
 // Navigation Styles here
+header {
+  border-bottom: 2px dashed @silver;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5% 5%;
+
+  div {
+    width: 30%;
+
+    a {
+      color: @font-color;
+      font-size: 3.2rem;
+      font-family: 'Indie Flower', cursive;
+      text-decoration: none;
+    }
+  } //Closes div
+
+  nav {
+    width: 30%;
+
+    a {
+        color: @font-color;
+        font-size: 1.6rem;
+        padding: 0 5%;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+  } //Close nav
+}

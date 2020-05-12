@@ -168,6 +168,33 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  border-bottom: 2px dashed #C0C0C0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5% 5%;
+}
+header div {
+  width: 30%;
+}
+header div a {
+  color: #212529;
+  font-size: 3.2rem;
+  font-family: 'Indie Flower', cursive;
+  text-decoration: none;
+}
+header nav {
+  width: 30%;
+}
+header nav a {
+  color: #212529;
+  font-size: 1.6rem;
+  padding: 0 5%;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
