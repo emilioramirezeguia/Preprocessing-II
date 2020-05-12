@@ -175,6 +175,11 @@ img {
   align-items: center;
   padding: 2% 5%;
 }
+@media (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
 .navigation div {
   width: 50%;
 }
@@ -183,6 +188,14 @@ img {
   font-size: 3.2rem;
   font-family: 'Indie Flower', cursive;
   text-decoration: none;
+}
+@media (max-width: 500px) {
+  .navigation div {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+    width: 100%;
+  }
 }
 .navigation nav {
   display: flex;
@@ -197,6 +210,13 @@ img {
 }
 .navigation nav a:hover {
   text-decoration: underline;
+}
+@media (max-width: 500px) {
+  .navigation nav {
+    justify-content: space-between;
+    padding: 2% 0;
+    width: 100%;
+  }
 }
 .footer {
   width: 100%;
