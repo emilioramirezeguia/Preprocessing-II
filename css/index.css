@@ -192,7 +192,7 @@ img {
 .navigation nav a {
   color: #212529;
   font-size: 1.6rem;
-  padding: 0 2.5%;
+  padding: 0 3%;
   text-decoration: none;
 }
 .navigation nav a:hover {
@@ -263,4 +263,14 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  background-color: #17A2B8;
+  border: 1px solid #17A2B8;
+  border-radius: 7px;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+  padding: 5% 0;
 }
