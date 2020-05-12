@@ -1,12 +1,13 @@
 // Navigation Styles here
-header {
+.navigation {
   border-bottom: 2px dashed @silver;
   display: flex;
   justify-content: space-between;
-  padding: 2.5% 5%;
+  align-items: center;
+  padding: 2% 5%;
 
   div {
-    width: 30%;
+    width: 50%;
 
     a {
       color: @font-color;
@@ -17,12 +18,14 @@ header {
   } //Closes div
 
   nav {
-    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
 
     a {
         color: @font-color;
         font-size: 1.6rem;
-        padding: 0 5%;
+        padding: 0 2.5%;
         text-decoration: none;
         &:hover {
           text-decoration: underline;
