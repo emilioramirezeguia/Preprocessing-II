@@ -364,3 +364,8 @@ img {
   justify-content: center;
   padding: 5% 0;
 }
+.home .content-pick .destination .btn:hover {
+  background-color: black;
+  border-radius: 50%;
+  color: green;
+}
