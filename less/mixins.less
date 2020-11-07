@@ -1,1 +1,17 @@
 // Mixins in here
+.signupButton(@backgroundColor, @textColor){
+  background-color: @backgroundColor;
+  border: 1px solid @backgroundColor;
+  border-radius: 7px;
+  color: @textColor;
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+  padding: 5% 0;
+}
+
+.animationButton(@backgroundColor, @textColor){
+  background-color: @backgroundColor;
+  border-radius: 50%;
+  color: @textColor;
+}
